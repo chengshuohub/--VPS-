@@ -64,7 +64,7 @@ vim traffic_limit.sh
 # 1. 基础配置
 LIMIT=170
 INTERFACE="ens4"
-EMAIL="zhuchengshuo0709@gmail.com"
+EMAIL="你的邮箱"
 
 # 动态获取公网 IP (不固定)
 SERVER_IP=$(curl -s http://checkip.amazonaws.com || curl -s ifconfig.me || echo "未知IP")
